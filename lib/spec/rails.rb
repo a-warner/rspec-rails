@@ -18,7 +18,6 @@ require 'active_record/fixtures' if defined?(ActiveRecord::Base)
 require 'spec/rails/extensions'
 # require 'spec/rails/interop/testcase'
 
-Test::Unit::TestCase.send(:include, RSpec::Matchers)
 Test::Unit.run = true
 
 RSpec.configure do |c|
